@@ -50,6 +50,7 @@ end
 def add_s(array)
   
    collection = []
+   
   array.each do |s|
     dont_change = array[1]
     
