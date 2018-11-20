@@ -54,9 +54,7 @@ def add_s(array)
     dont_change = array[1]
     
     collection << "#{s}s"
-    collection.delete_at(1)
     collection[1] = dont_change
-
     
   end
   collection
