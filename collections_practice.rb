@@ -36,7 +36,16 @@ end
 
 end
 
-def sum_array
+def sum_array(array)
+  
+  total = 0 
+  
+  array.each do |amount|
+    total = total + amount
+  end
+  
+  return total
+end
   
 
 
