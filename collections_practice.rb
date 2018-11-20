@@ -50,9 +50,9 @@ end
 def add_s(array)
   
    collection = []
-   
+   dont_change = array[1]
+
   array.each do |s|
-    dont_change = array[1]
     
     collection << "#{s}s"
     
