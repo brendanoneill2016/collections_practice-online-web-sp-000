@@ -21,6 +21,10 @@ end
   
 def kesha_maker(array)
   
+  collection = []
   array.each do |kesha|
-    kesha[2]
-  
+    kesha[2] = "$"
+    collection << kesha
+  end
+  collection
+end 
