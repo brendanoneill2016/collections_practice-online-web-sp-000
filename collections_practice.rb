@@ -27,3 +27,6 @@ def kesha_maker(array)
   end
   collection
 end 
+
+def find_a
+  
