@@ -47,11 +47,18 @@ def sum_array(array)
   return total
 end
 
-def add_s
+def add_s(array)
   
-
-
-end
+   collection = []
+  array.each do |s|
+    dont_change = array[1]
+    
+    collection << "#{s}s"
+    collection[1] = dont_change
+    
+  end
+  collection
+end 
 
 
   
