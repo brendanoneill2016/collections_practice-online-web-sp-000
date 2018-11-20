@@ -59,7 +59,6 @@ def add_s(array)
   end
   
   collection[1] = dont_change
-  collection.delete_at(2)
   collection
 end 
 
